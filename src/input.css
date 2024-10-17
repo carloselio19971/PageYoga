@@ -7,5 +7,10 @@
     .fondo-negro {
         @apply bg-[#1E1E1E]
     }
-   
+    .hamburger div:first-child{
+        @apply rotate-45 translate-y-1.5
+    }
+    .hamburger div:last-child{
+        @apply -rotate-45 -translate-y-1
+    }
 }
