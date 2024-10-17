@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+@layer components{
+    .fondo-negro {
+        @apply bg-[#1E1E1E]
+    }
+   
+}
